@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Pandey | PhD Researcher and Mechanical Engineer</title>
+  <meta
+    name="description"
+    content="Personal academic website of Gaurav Pandey, PhD researcher at National Taipei University of Technology working on X-ray metrology, semiconductor manufacturing, and precision measurement."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrapper" id="navbar">
+    <nav class="nav-inner container">
+      <a href="#hero" class="nav-logo" aria-label="Go to top">GP</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#profiles">Featured</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="hero-tag">PhD Researcher | Mechanical Engineer</span>
+        <h1>Gaurav <span class="accent">Pandey</span></h1>
+        <p class="hero-focus">
+          Semiconductor Metrology | Optics | X-ray Scatterometry | Precision Engineering
+        </p>
+        <div class="hero-affiliations" aria-label="Institution affiliations">
+          <a href="https://www.itri.org.tw/english/index.aspx" target="_blank" rel="noopener" class="affiliation-chip">
+            <span class="org-badge org-badge--itri">ITRI</span>
+            <span class="org-label">Industrial Technology Research Institute</span>
+          </a>
+          <a href="https://www-en.ntut.edu.tw/" target="_blank" rel="noopener" class="affiliation-chip">
+            <span class="org-badge org-badge--ntut">NTUT</span>
+            <span class="org-label">National Taipei University of Technology</span>
+          </a>
+          <a href="https://sites.google.com/view/ntupmlab" target="_blank" rel="noopener" class="affiliation-chip">
+            <span class="org-badge org-badge--ntu">NTU</span>
+            <span class="org-label">Precision Metrology Lab</span>
+          </a>
+        </div>
+        <div class="hero-cta">
+          <a href="#publications" class="btn btn-primary">View Publications</a>
+          <a href="gaurav-pandey-academic-cv-2026.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <img src="Myimg_1.jpg" alt="Portrait of Gaurav Pandey" class="avatar-photo" />
+          </div>
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a curious researcher with a strong passion for semiconductor industry research as
+            well as other high-tech evolving industries. My interests focus on designing and building
+            automated optical inspection and mechanical systems, with particular attention to
+            metrology and inspection tools for semiconductor applications.
+          </p>
+          <p>
+            I enjoy the mathematical modeling and synthesis of physics behind these systems. I
+            actively look for important insights and signature patterns shaped by quantum and
+            classical light-matter interactions. Python, MATLAB, and C are my preferred languages for
+            algorithm development and data analysis.
+          </p>
+          <p>
+            For system design, I work comfortably with computer-aided design software such as
+            SolidWorks and NX Unigraphics. I also use numerical and GUI-based engineering tools such
+            as ANSYS Workbench, FDTD Lumerical methods, and FDM / FEM workflows for analysis,
+            optimization, and engineering development.
+          </p>
+          <p>
+            Currently, I am specializing in X-ray metrology and CD metrology with modeling and
+            simulation analysis. Through these projects, I aim to contribute to advances in metrology
+            and drive innovation in the semiconductor industry.
+          </p>
+          <div class="about-facts">
+            <div class="fact">
+              <strong>3+</strong>
+              <span>Years in industry roles</span>
+            </div>
+            <div class="fact">
+              <strong>2+</strong>
+              <span>Years in current PhD research</span>
+            </div>
+            <div class="fact">
+              <strong>3</strong>
+              <span>Listed publications</span>
+            </div>
+            <div class="fact">
+              <strong>4</strong>
+              <span>Countries worked or studied in</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-sidebar">
+          <div class="info-card">
+            <h3>Quick Info</h3>
+            <ul class="info-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                New Taipei City, Taiwan
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <a href="mailto:gaurav.pandey19933@gmail.com">gaurav.pandey19933@gmail.com</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.79a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path>
+                </svg>
+                <a href="tel:+886937541594">+886 937 541 594</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <a href="https://www.linkedin.com/in/gaurav-pandey-178344122" target="_blank" rel="noopener">LinkedIn profile</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+                <a href="https://orcid.org/0009-0004-2408-4744" target="_blank" rel="noopener">ORCID: 0009-0004-2408-4744</a>
+              </li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Education</h3>
+            <ul class="edu-list">
+              <li>
+                <span class="edu-year">2022 - now</span>
+                <div>
+                  <strong>PhD, Mechanical Engineering</strong>
+                  <em>
+                    <span class="org-inline">
+                      <span class="org-badge org-badge--small org-badge--ntut">NTUT</span>
+                      <span class="org-label">National Taipei University of Technology, Taiwan</span>
+                    </span>
+                  </em>
+                </div>
+              </li>
+              <li>
+                <span class="edu-year">2017 - 2019</span>
+                <div>
+                  <strong>M.S., Mechanical Engineering</strong>
+                  <em>Chang Gung University, Taiwan | GPA 3.77</em>
+                </div>
+              </li>
+              <li>
+                <span class="edu-year">2012 - 2016</span>
+                <div>
+                  <strong>B.Tech., Mechanical Engineering</strong>
+                  <em>APJ Abdul Kalam Technical University, India | GPA 3.3</em>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Focus Areas</span>
+        <h2>Research Interests</h2>
+      </div>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+              <path d="M11 8v6M8 11h6"></path>
+            </svg>
+          </div>
+          <h3>X-ray Metrology</h3>
+          <p>
+            Advanced X-ray based measurement techniques for front-end-of-line semiconductor processes,
+            buried structures, and next-generation logic-node characterization.
+          </p>
+        </article>
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+              <path d="M8 21h8M12 17v4"></path>
+              <path d="M7 8h10M7 12h6"></path>
+            </svg>
+          </div>
+          <h3>Semiconductor Manufacturing</h3>
+          <p>
+            Measurement and process-control challenges across advanced logic nodes, packaging, and
+            precision optical or X-ray characterization workflows.
+          </p>
+        </article>
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h3>Precision Measurement</h3>
+          <p>
+            Development of measurement systems and analysis methods for industrial machinery,
+            structural monitoring, and vibration-driven diagnostics.
+          </p>
+        </article>
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+          </div>
+          <h3>Industry 4.0 and IoT</h3>
+          <p>
+            Sensor-based monitoring systems, data acquisition, and embedded-device driven condition
+            monitoring for industrial applications.
+          </p>
+        </article>
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.07 4.93A10 10 0 116.93 19.07"></path>
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83"></path>
+            </svg>
+          </div>
+          <h3>CAD / CAE Design</h3>
+          <p>
+            SolidWorks, AutoCAD, UG NX, ANSYS, and QForm workflows for product design, thermal or
+            structural simulation, and manufacturable engineering development.
+          </p>
+        </article>
+        <article class="research-card">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <h3>Additive Manufacturing</h3>
+          <p>
+            Rapid prototyping, mechanical gripper design, drone-component development, and 3D
+            printing for iterative engineering builds.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Output</span>
+        <h2>Publications</h2>
+        <p class="section-desc">
+          Each record includes a verified publication link plus Google Scholar and ResearchGate routes
+          for citation or read tracking.
+        </p>
+      </div>
+      <div class="pub-list">
+        <article class="pub-card journal">
+          <div class="pub-type">Journal Article</div>
+          <div class="pub-year">2026</div>
+          <div class="pub-body">
+            <h3>X-ray metrology for advanced semiconductor manufacturing of next-generation logic devices</h3>
+            <p class="pub-authors">Gaurav Pandey, Wei-En Fu, Chun-Yu Liu, Chao-Ching Ho, and Liang-Chia Chen</p>
+            <p class="pub-venue">
+              <em>Journal of Micro/Nanopatterning, Materials, and Metrology</em>, 25(1):010901.
+            </p>
+            <p class="pub-meta">
+              Verified DOI: <a href="https://doi.org/10.1117/1.JMM.25.1.010901" target="_blank" rel="noopener">10.1117/1.JMM.25.1.010901</a>
+            </p>
+            <p class="pub-proof">ResearchGate public citation count visible during update: 0.</p>
+            <div class="pub-tags">
+              <span>X-ray metrology</span>
+              <span>Logic devices</span>
+              <span>Semiconductor manufacturing</span>
+            </div>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1117/1.JMM.25.1.010901" target="_blank" rel="noopener" class="btn btn-small btn-primary">DOI</a>
+              <a href="https://scholar.google.com/scholar?q=%22X-ray+metrology+for+advanced+semiconductor+manufacturing+of+next-generation+logic+devices%22" target="_blank" rel="noopener" class="btn btn-small btn-light">Google Scholar</a>
+              <a href="https://www.researchgate.net/publication/400071148_X-ray_metrology_for_advanced_semiconductor_manufacturing_of_next-generation_logic_devices" target="_blank" rel="noopener" class="btn btn-small btn-light">ResearchGate</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pub-card conference">
+          <div class="pub-type">Conference Paper</div>
+          <div class="pub-year">2025</div>
+          <div class="pub-body">
+            <h3>Emerging x-ray metrology techniques with evolving front-end-of-line high-technology IC nodes</h3>
+            <p class="pub-authors">Gaurav Pandey, Wei-En Fu, Chun-Yu Liu, Chao-Ching Ho, and Liang-Chia Chen</p>
+            <p class="pub-venue">
+              <em>Metrology, Inspection, and Process Control XXXIX</em>, Proceedings of SPIE 13426
+              (2025), 311-318.
+            </p>
+            <p class="pub-meta">
+              Verified DOI: <a href="https://doi.org/10.1117/12.3051692" target="_blank" rel="noopener">10.1117/12.3051692</a>
+            </p>
+            <div class="pub-tags">
+              <span>FEOL</span>
+              <span>IC nodes</span>
+              <span>SPIE</span>
+            </div>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1117/12.3051692" target="_blank" rel="noopener" class="btn btn-small btn-primary">DOI</a>
+              <a href="https://scholars.lib.ntu.edu.tw/handle/123456789/730605" target="_blank" rel="noopener" class="btn btn-small btn-light btn-org"><span class="org-badge org-badge--small org-badge--ntu">NTU</span><span class="org-label">Record</span></a>
+              <a href="https://scholar.google.com/scholar?q=%22Emerging+x-ray+metrology+techniques+with+evolving+front-end-of-line+high-technology+IC+nodes%22" target="_blank" rel="noopener" class="btn btn-small btn-light">Google Scholar</a>
+              <a href="https://www.researchgate.net/publication/391132882_Emerging_x-ray_metrology_techniques_with_evolving_front-end-of-line_high-technology_IC_nodes" target="_blank" rel="noopener" class="btn btn-small btn-light">ResearchGate</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pub-card conference">
+          <div class="pub-type">Conference Paper</div>
+          <div class="pub-year">2024</div>
+          <div class="pub-body">
+            <h3>Advancements in metrology for advanced semiconductor packaging</h3>
+            <p class="pub-authors">Wei-Hsin Chein, Gaurav Pandey, Surajit Das, and Liang-Chia Chen</p>
+            <p class="pub-venue">
+              <em>Optics and Photonics for Advanced Dimensional Metrology III</em>, Proceedings of
+              SPIE 12997, 129970R.
+            </p>
+            <p class="pub-meta">
+              Verified DOI: <a href="https://doi.org/10.1117/12.3024745" target="_blank" rel="noopener">10.1117/12.3024745</a>
+            </p>
+            <div class="pub-tags">
+              <span>Advanced packaging</span>
+              <span>Dimensional metrology</span>
+              <span>SPIE</span>
+            </div>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1117/12.3024745" target="_blank" rel="noopener" class="btn btn-small btn-primary">DOI</a>
+              <a href="https://scholars.lib.ntu.edu.tw/handle/123456789/720316" target="_blank" rel="noopener" class="btn btn-small btn-light btn-org"><span class="org-badge org-badge--small org-badge--ntu">NTU</span><span class="org-label">Record</span></a>
+              <a href="https://scholar.google.com/scholar?q=%22Advancements+in+metrology+for+advanced+semiconductor+packaging%22" target="_blank" rel="noopener" class="btn btn-small btn-light">Google Scholar</a>
+              <a href="https://www.google.com/search?q=site%3Aresearchgate.net+%22Advancements+in+metrology+for+advanced+semiconductor+packaging%22" target="_blank" rel="noopener" class="btn btn-small btn-light">ResearchGate lookup</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Mar 2023 - Present</span>
+            <h3>Research Intern</h3>
+            <h4>
+              <a href="https://www.itri.org.tw/english/index.aspx" target="_blank" rel="noopener" class="timeline-org-link">
+                <span class="org-inline">
+                  <span class="org-badge org-badge--small org-badge--itri">ITRI</span>
+                  <span class="org-label">Center of Measurement and Standards</span>
+                </span>
+              </a>
+              <span class="org-meta">Hsinchu, Taiwan</span>
+            </h4>
+            <p>
+              Conducting research on X-ray metrology for advanced semiconductor manufacturing and
+              contributing to precision measurement efforts relevant to next-generation IC fabrication.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Sep 2022 - Present</span>
+            <h3>Research Assistant</h3>
+            <h4>
+              <a href="https://sites.google.com/view/ntupmlab" target="_blank" rel="noopener" class="timeline-org-link">
+                <span class="org-inline">
+                  <span class="org-badge org-badge--small org-badge--ntu">NTU</span>
+                  <span class="org-label">Precision Metrology Lab</span>
+                </span>
+              </a>
+              <span class="org-meta">Taipei, Taiwan</span>
+            </h4>
+            <p>
+              Supporting doctoral research in semiconductor metrology, optical and X-ray measurement
+              systems, and precision characterization workflows.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Feb 2022 - Jun 2022</span>
+            <h3>Product Design and Development Engineer</h3>
+            <h4><a href="https://www.botlabdynamics.com/" target="_blank" rel="noopener" class="timeline-org-link">Botlab Dynamics</a>, TBIU, IIT Delhi | New Delhi, India</h4>
+            <p>
+              Directed product design and development for drone-fleet hardware, from rapid prototypes
+              to production-ready assemblies.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Aug 2021 - Feb 2022</span>
+            <h3>Design and Application Engineer</h3>
+            <h4><a href="https://aerogram.in/" target="_blank" rel="noopener" class="timeline-org-link">Aerogram</a>, TBIU, IIT Delhi | New Delhi, India</h4>
+            <p>
+              Led development work for IoT monitoring devices including air samplers, dust monitors,
+              outdoor systems, and UAV-adjacent hardware.
+            </p>
+            <ul>
+              <li>Worked across thermal and structural design constraints tied to ATEX and ICAT requirements.</li>
+              <li>Built experimental setups for environmental monitoring products and technical demonstrations.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Nov 2019 - Mar 2021</span>
+            <h3>Assistant Manager - Design and Development</h3>
+            <h4><a href="https://www.dgtpc.com/gsrygqc/" target="_blank" rel="noopener" class="timeline-org-link">Thousand Perfection Melamine Co. Ltd</a> | Dongguan, China</h4>
+            <p>
+              Led thermosetting product development, tooling design, mould thermal monitoring, and
+              process-improvement work in manufacturing.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2017 - 2019</span>
+            <h3>Research Assistant</h3>
+            <h4>Chang Gung University | Taoyuan, Taiwan</h4>
+            <p>
+              Built a health-monitoring system for fastener machinery with vibration acquisition,
+              analytics, and FEM-supported investigation for Industry 4.0 use cases.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Jul 2016 - Aug 2017</span>
+            <h3>Design Engineer</h3>
+            <h4>Sagar Tools and Machines | Uttar Pradesh, India</h4>
+            <p>
+              Worked on injection moulding, HPDC, sheet-metal tooling, and special-purpose-machine
+              design for industrial clients.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2>Skills and Credentials</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            Programming
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <span>Python</span>
+              <div class="bar"><div class="bar-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>MATLAB</span>
+              <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>C</span>
+              <div class="bar"><div class="bar-fill" style="--w:75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Arduino</span>
+              <div class="bar"><div class="bar-fill" style="--w:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+              <path d="M3 9h18M9 21V9"></path>
+            </svg>
+            CAD Software
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <span>SolidWorks</span>
+              <div class="bar"><div class="bar-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>AutoCAD</span>
+              <div class="bar"><div class="bar-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>UG NX</span>
+              <div class="bar"><div class="bar-fill" style="--w:85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Proteus</span>
+              <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            CAE / Simulation
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <span>ANSYS</span>
+              <div class="bar"><div class="bar-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>QForm</span>
+              <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Ebsilon</span>
+              <div class="bar"><div class="bar-fill" style="--w:70%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"></path>
+            </svg>
+            Languages
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <span>Hindi</span>
+              <div class="bar"><div class="bar-fill" style="--w:100%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>English</span>
+              <div class="bar"><div class="bar-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Mandarin</span>
+              <div class="bar"><div class="bar-fill" style="--w:70%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>German</span>
+              <div class="bar"><div class="bar-fill" style="--w:30%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications">
+        <h3>Certificates, Training, and Recognition</h3>
+        <div class="cert-grid">
+          <article class="cert-card">Top 30 International Students - CTCI Foundation Enterprise Visit, Taiwan (2018)</article>
+          <article class="cert-card">ANSYS Fluent (CFD) training - CADMEN Taiwan Auto-Design Co.</article>
+          <article class="cert-card">SolidWorks and AutoCAD training - Prestantia Creation Pvt. Ltd.</article>
+          <article class="cert-card">Advanced mould tool designer training - injection, HPDC, and blow moulding</article>
+          <article class="cert-card">3D Printing and UAV Summer Immersion Program - Providence University, Taiwan</article>
+          <article class="cert-card">Fundamentals of IoT and Data Science</article>
+        </div>
+        <p class="cert-note">
+          Direct certificate files are not in the website folder yet. They can be linked here once the
+          scans or PDFs are provided.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="documents">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Downloads</span>
+        <h2>Documents and Presentation Area</h2>
+        <p class="section-desc">
+          The current academic CV is linked below. Presentation decks and certificate PDFs can be added
+          in this section once the source files or public URLs are shared.
+        </p>
+      </div>
+      <div class="documents-grid">
+        <article class="document-card">
+          <h3>Academic CV 2026</h3>
+          <p>Most recent academic CV copied into the website for direct download.</p>
+          <a href="gaurav-pandey-academic-cv-2026.pdf" class="btn btn-primary" download>Download PDF</a>
+        </article>
+        <article class="document-card empty-state">
+          <h3>Presentation Library</h3>
+          <p>
+            No verified PPT or slide-deck files were available for publishing in the site build. Share
+            the presentation files or links to add a proper deck gallery here.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="profiles">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">LinkedIn Featured</span>
+        <h2>Featured Links and Research Profiles</h2>
+        <p class="section-desc">
+          Featured links are collected here at the end of the site, together with the core Google
+          Scholar and ResearchGate profile routes.
+        </p>
+      </div>
+      <div class="profile-link-grid">
+        <article class="profile-link-card">
+          <h3>Revolution 21st Century</h3>
+          <p>
+            Featured Blogspot article on fulfillments of demand and desire, creating revolutions and
+            people-centered diversified demand.
+          </p>
+          <a
+            href="https://revolution21century.blogspot.com/2020/06/fulfillments-of-demand-and-desire.html"
+            target="_blank"
+            rel="noopener"
+            class="inline-link"
+          >
+            Open featured link
+          </a>
+        </article>
+        <article class="profile-link-card">
+          <h3>Revolutionary Topic and Buzz</h3>
+          <p>
+            Featured Blogspot article focused on big data, machine learning, and high-interest
+            technology discussions in the ongoing world.
+          </p>
+          <a
+            href="https://revolution21century.blogspot.com/2020/04/revolutionary-topic-and-buzz.html"
+            target="_blank"
+            rel="noopener"
+            class="inline-link"
+          >
+            Open featured link
+          </a>
+        </article>
+        <article class="profile-link-card">
+          <h3>Google Scholar</h3>
+          <p>Profile-level citations, h-index, i10-index, publication list, and citation history.</p>
+          <a
+            href="https://scholar.google.com/citations?user=76WPhP8AAAAJ&hl=en"
+            target="_blank"
+            rel="noopener"
+            class="inline-link"
+          >
+            Open Google Scholar profile
+          </a>
+        </article>
+        <article class="profile-link-card">
+          <h3>ResearchGate</h3>
+          <p>ResearchGate profile with your publication list, profile activity, and profile-level metrics.</p>
+          <a
+            href="https://www.researchgate.net/profile/Gaurav-Pandey-25?ev=hdr_xprf"
+            target="_blank"
+            rel="noopener"
+            class="inline-link"
+          >
+            Open ResearchGate profile
+          </a>
+        </article>
+      </div>
+      <div class="metrics-panel">
+        <article class="metrics-card">
+          <div class="metrics-heading">
+            <div>
+              <span class="metrics-tag">Google Scholar Snapshot</span>
+              <h3>Citation Metrics</h3>
+            </div>
+            <a
+              href="https://scholar.google.com/citations?user=76WPhP8AAAAJ&hl=en"
+              target="_blank"
+              rel="noopener"
+              class="inline-link"
+            >
+              View profile
+            </a>
+          </div>
+          <div class="metrics-table">
+            <div class="metrics-row metrics-header">
+              <span></span>
+              <span>All</span>
+              <span>Since 2021</span>
+            </div>
+            <div class="metrics-row">
+              <span>Citations</span>
+              <strong>15</strong>
+              <strong>15</strong>
+            </div>
+            <div class="metrics-row">
+              <span>h-index</span>
+              <strong>2</strong>
+              <strong>2</strong>
+            </div>
+            <div class="metrics-row">
+              <span>i10-index</span>
+              <strong>1</strong>
+              <strong>1</strong>
+            </div>
+          </div>
+          <p class="metrics-note">Snapshot values taken from the Google Scholar image you provided.</p>
+        </article>
+        <article class="metrics-card">
+          <div class="metrics-heading">
+            <div>
+              <span class="metrics-tag">Citation Trend</span>
+              <h3>Recent Years</h3>
+            </div>
+            <span class="metrics-inline">Total citations: 15</span>
+          </div>
+          <div class="citation-chart" aria-label="Google Scholar citation trend for 2025 and 2026">
+            <div class="chart-scale">
+              <span>12</span>
+              <span>6</span>
+              <span>0</span>
+            </div>
+            <div class="chart-bars">
+              <div class="chart-col">
+                <div class="chart-bar" style="--bar-height: 100%"></div>
+                <strong>2025</strong>
+                <span>12</span>
+              </div>
+              <div class="chart-col">
+                <div class="chart-bar" style="--bar-height: 25%"></div>
+                <strong>2026</strong>
+                <span>3</span>
+              </div>
+            </div>
+          </div>
+          <p class="metrics-note">2025 and 2026 values match the citation chart shown in your screenshot.</p>
+        </article>
+        <article class="metrics-card">
+          <div class="metrics-heading">
+            <div>
+              <span class="metrics-tag">ResearchGate</span>
+              <h3>Live Profile Metrics</h3>
+            </div>
+          </div>
+          <p class="metrics-copy">
+            ResearchGate profile metrics such as reads, citations, recommendations, and publication
+            activity can change frequently. The profile below is linked directly so visitors can see
+            the latest live values.
+          </p>
+          <a
+            href="https://www.researchgate.net/profile/Gaurav-Pandey-25?ev=hdr_xprf"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-light btn-small"
+          >
+            Open ResearchGate profile
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Connect</span>
+        <h2>Get in Touch</h2>
+        <p class="section-desc">
+          For research collaboration, metrology discussions, or engineering opportunities, the links
+          below are the fastest way to reach me.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <h3>Email</h3>
+          <a href="mailto:gaurav.pandey19933@gmail.com">gaurav.pandey19933@gmail.com</a>
+        </article>
+        <article class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.79a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path>
+          </svg>
+          <h3>Phone</h3>
+          <a href="tel:+886937541594">+886 937 541 594</a>
+        </article>
+        <article class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/gaurav-pandey-178344122" target="_blank" rel="noopener">gaurav-pandey-178344122</a>
+        </article>
+        <article class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
+          </svg>
+          <h3>ORCID</h3>
+          <a href="https://orcid.org/0009-0004-2408-4744" target="_blank" rel="noopener">0009-0004-2408-4744</a>
+        </article>
+        <article class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <h3>Location</h3>
+          <span>New Taipei City, Taiwan</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>
+        &copy; 2026 Gaurav Pandey | PhD Researcher,
+        <span class="org-inline org-inline--footer">
+          <span class="org-badge org-badge--small org-badge--ntut">NTUT</span>
+          <span class="org-label">Taiwan</span>
+        </span>
+      </p>
+      <p>
+        ORCID:
+        <a href="https://orcid.org/0009-0004-2408-4744" target="_blank" rel="noopener">0009-0004-2408-4744</a>
+      </p>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
