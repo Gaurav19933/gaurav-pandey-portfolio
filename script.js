@@ -49,7 +49,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 const revealElements = document.querySelectorAll(
   ".section-header, .about-text, .about-sidebar, .fact, .profile-link-card, .research-card, " +
-    ".metrics-card, .pub-card, .timeline-item, .skills-group, .cert-card, .certifications, .document-card, .contact-card"
+    ".metrics-card, .pub-card, .timeline-item, .skills-group, .cert-card, .certifications, .document-card, .news-card, .contact-card"
 );
 
 revealElements.forEach((element) => {
