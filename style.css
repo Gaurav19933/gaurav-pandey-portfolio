@@ -674,19 +674,18 @@ a.affiliation-chip:hover {
   align-items: start;
 }
 
-.about-text {
-  max-width: 760px;
-}
-
 .about-text p {
-  margin: 0 0 18px;
+  margin: 0 0 22px;
   color: var(--gray-600);
-  font-size: 1.01rem;
-  line-height: 1.68;
+  font-size: 1rem;
+  line-height: 1.72;
+  letter-spacing: 0;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
   text-wrap: pretty;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .about-text p:last-child {
