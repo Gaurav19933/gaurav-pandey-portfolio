@@ -1,0 +1,13 @@
+.preview-server.pid
+__pycache__/
+dev_server.py
+editor.css
+editor.html
+editor.js
+preview-local.cmd
+start-editor.cmd
+start-preview.cmd
+stop-preview.cmd
+Certificatepdf_merged.pdf
+Myimg_1.jpeg
+myCV2026.tex

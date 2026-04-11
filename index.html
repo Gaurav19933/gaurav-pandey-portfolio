@@ -41,9 +41,9 @@
     <div class="hero-bg"></div>
     <div class="container hero-inner">
       <div class="hero-text">
-        <span class="hero-tag">PhD Researcher | Mechanical Engineer</span>
+        <span class="hero-tag" id="heroTag">PhD Researcher | Mechanical Engineer</span>
         <h1>Gaurav <span class="accent">Pandey</span></h1>
-        <p class="hero-focus">
+        <p class="hero-focus" id="heroFocus">
           Semiconductor Metrology | Optics | X-ray Scatterometry | Precision Engineering
         </p>
         <div class="hero-affiliations" aria-label="Institution affiliations">
@@ -96,14 +96,14 @@
       </div>
       <div class="about-grid">
         <div class="about-text">
-          <p>
+          <p id="aboutParagraph1">
             Researcher in X&#8209;ray metrology and semiconductor process control, working across
             synchrotron facilities and in&#8209;house compact X&#8209;ray sources. The in&#8209;house platform
             includes vacuum system development for soft and tender X&#8209;ray instrumentation. Applied
             techniques span SAXS, GISAXS, XRR, and HRXRD, targeting advanced logic device
             characterization at sub&#8209;5 nm nodes.
           </p>
-          <p>
+          <p id="aboutParagraph2">
             My current work focuses on building and advancing X-ray metrology capabilities for
             critical dimension analysis and structural characterization of Gate&#8209;All&#8209;Around (GAA)
             nanosheet architectures. This involves reciprocal space modeling, scattering physics,
@@ -111,7 +111,7 @@
             actionable process insights, complemented by SEM and TEM for ground&#8209;truth validation of
             non&#8209;destructive X&#8209;ray measurements.
           </p>
-          <p>
+          <p id="aboutParagraph3">
             My broader engineering foundation covers precision metrology systems and machine design,
             supported by numerical simulation (ANSYS, FDTD/Lumerical), bridging fundamental
             physics with engineering&#8209;scale metrology challenges.
@@ -144,20 +144,20 @@
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                New Taipei City, Taiwan
+                <span id="quickInfoLocation">New Taipei City, Taiwan</span>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
-                <a href="mailto:gaurav.pandey19933@gmail.com">gaurav.pandey19933@gmail.com</a>
+                <a href="mailto:gaurav.pandey19933@gmail.com" id="quickInfoEmail">gaurav.pandey19933@gmail.com</a>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.79a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path>
                 </svg>
-                <a href="tel:+886937541594">+886 937 541 594</a>
+                <a href="tel:+886937541594" id="quickInfoPhone">+886 937 541 594</a>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -728,12 +728,13 @@
       </div>
       <div class="profile-link-grid">
         <article class="profile-link-card">
-          <h3>Revolution 21st Century</h3>
-          <p>
+          <h3 id="featuredTitle1">Revolution 21st Century</h3>
+          <p id="featuredDescription1">
             Featured Blogspot article on fulfillments of demand and desire, creating revolutions and
             people-centered diversified demand.
           </p>
           <a
+            id="featuredLink1"
             href="https://revolution21century.blogspot.com/2020/06/fulfillments-of-demand-and-desire.html"
             target="_blank"
             rel="noopener"
@@ -743,12 +744,13 @@
           </a>
         </article>
         <article class="profile-link-card">
-          <h3>Revolutionary Topic and Buzz</h3>
-          <p>
+          <h3 id="featuredTitle2">Revolutionary Topic and Buzz</h3>
+          <p id="featuredDescription2">
             Featured Blogspot article focused on big data, machine learning, and high-interest
             technology discussions in the ongoing world.
           </p>
           <a
+            id="featuredLink2"
             href="https://revolution21century.blogspot.com/2020/04/revolutionary-topic-and-buzz.html"
             target="_blank"
             rel="noopener"
@@ -916,14 +918,14 @@
             <polyline points="22,6 12,13 2,6"></polyline>
           </svg>
           <h3>Email</h3>
-          <a href="mailto:gaurav.pandey19933@gmail.com">gaurav.pandey19933@gmail.com</a>
+          <a href="mailto:gaurav.pandey19933@gmail.com" id="contactEmail">gaurav.pandey19933@gmail.com</a>
         </article>
         <article class="contact-card">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.79a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path>
           </svg>
           <h3>Phone</h3>
-          <a href="tel:+886937541594">+886 937 541 594</a>
+          <a href="tel:+886937541594" id="contactPhone">+886 937 541 594</a>
         </article>
         <article class="contact-card">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -949,7 +951,7 @@
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
           <h3>Location</h3>
-          <span>New Taipei City, Taiwan</span>
+          <span id="contactLocation">New Taipei City, Taiwan</span>
         </article>
       </div>
     </div>
@@ -979,6 +981,7 @@
     </svg>
   </a>
 
+  <script src="content-loader.js?v=20260411-editor"></script>
   <script src="script.js?v=20260411-2"></script>
 </body>
 </html>
