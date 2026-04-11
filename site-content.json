@@ -5,7 +5,7 @@
   },
   "about": {
     "paragraphs": [
-      "Researcher in X-ray metrology and semiconductor process control, working across synchrotron facilities and in-house compact X-ray sources. The in-house platform includes vacuum system development for soft and tender X-ray instrumentation. Applied techniques span tSAXS, GI-SAXS, XRR, and HRXRD, targeting advanced logic device characterization at sub-5 nm nodes.",
+      "Researcher in X-ray metrology and semiconductor process control, working across synchrotron facilities and in-house compact X-ray sources. The in-house platform includes vacuum system development for soft and tender X-ray instrumentation. Applied techniques span CD-SAXS/tSAXS, GI-SAXS, XRR, and HRXRD, targeting advanced logic device characterization at sub-5 nm nodes.",
       "My current work focuses on building and advancing X-ray metrology capabilities for critical dimension analysis and structural characterization of Gate-All-Around (GAA) nanosheet architectures. This involves reciprocal space modeling, scattering physics, and custom Python-based analysis pipelines to translate diffraction signatures into actionable process insights, complemented by SEM and TEM for ground-truth validation of non-destructive X-ray measurements.",
       "My broader engineering foundation covers precision metrology systems and machine design, supported by numerical simulation (ANSYS, FDTD/Lumerical), bridging fundamental physics with engineering-scale metrology challenges."
     ]
