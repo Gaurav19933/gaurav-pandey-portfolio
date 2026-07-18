@@ -655,10 +655,10 @@
   <section class="section" id="documents">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">Downloads</span>
+        <span class="section-tag">Documents &amp; Presentations</span>
         <h2>Documents and Presentation Area</h2>
         <p class="section-desc">
-          Key academic and design documents are grouped here with direct open and download access.
+          Academic documents are available to read or download. Design portfolios and presentations are available in preview mode only.
         </p>
       </div>
       <div class="documents-grid">
@@ -711,8 +711,21 @@
           <h3>Mechanical System and Product Design Portfolio</h3>
           <p>Selected mechanical-system and product-design work collected in a dedicated portfolio PDF.</p>
           <div class="document-actions">
-            <a href="PORTFOLIO.pdf" class="btn btn-primary" target="_blank" rel="noopener">Open Portfolio</a>
-            <a href="PORTFOLIO.pdf" class="btn btn-light" download>Download</a>
+            <button type="button" class="btn btn-primary preview-document" data-preview-title="Mechanical System and Product Design Portfolio" data-preview-path="previews/mechanical-portfolio/page-{page}.jpg" data-preview-pages="25" data-preview-padding="2">Preview Portfolio</button>
+            <span class="preview-only-label">Preview only</span>
+          </div>
+        </article>
+        <article class="document-card">
+          <div class="document-cover document-cover--drone">
+            <span class="document-type">Presentation</span>
+            <strong>Drone Light Shows</strong>
+            <span class="document-meta">18-slide Presentation</span>
+          </div>
+          <h3>Drone Light Shows</h3>
+          <p>An illustrated presentation exploring drone light-show technology, operation, and applications.</p>
+          <div class="document-actions">
+            <button type="button" class="btn btn-primary preview-document" data-preview-title="Drone Light Shows" data-preview-path="previews/drone-light-shows/Slide{page}.JPG" data-preview-pages="18">Preview Presentation</button>
+            <span class="preview-only-label">Preview only</span>
           </div>
         </article>
       </div>
@@ -1021,7 +1034,21 @@
     </svg>
   </a>
 
+  <div class="document-viewer" id="documentViewer" hidden aria-hidden="true">
+    <div class="document-viewer__backdrop" data-close-viewer></div>
+    <section class="document-viewer__dialog" role="dialog" aria-modal="true" aria-labelledby="documentViewerTitle">
+      <header class="document-viewer__header">
+        <div>
+          <span class="document-viewer__eyebrow">Preview only</span>
+          <h2 id="documentViewerTitle">Document preview</h2>
+        </div>
+        <button type="button" class="document-viewer__close" data-close-viewer aria-label="Close preview">&times;</button>
+      </header>
+      <div class="document-viewer__pages" id="documentViewerPages"></div>
+    </section>
+  </div>
+
   <script src="content-loader.js?v=20260411-editor"></script>
-  <script src="script.js?v=20260411-3"></script>
+  <script src="script.js?v=20260718-1"></script>
 </body>
 </html>

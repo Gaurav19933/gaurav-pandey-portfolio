@@ -89,3 +89,56 @@ const barObserver = new IntersectionObserver(
 );
 
 bars.forEach((bar) => barObserver.observe(bar));
+
+const documentViewer = document.getElementById("documentViewer");
+const documentViewerTitle = document.getElementById("documentViewerTitle");
+const documentViewerPages = document.getElementById("documentViewerPages");
+let lastPreviewTrigger = null;
+
+function closeDocumentViewer() {
+  if (!documentViewer || documentViewer.hidden) return;
+  documentViewer.hidden = true;
+  documentViewer.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("viewer-open");
+  documentViewerPages.replaceChildren();
+  lastPreviewTrigger?.focus();
+}
+
+document.querySelectorAll(".preview-document").forEach((button) => {
+  button.addEventListener("click", () => {
+    lastPreviewTrigger = button;
+    documentViewerTitle.textContent = button.dataset.previewTitle;
+    const pageCount = Number(button.dataset.previewPages);
+    const padding = Number(button.dataset.previewPadding || 0);
+    const fragment = document.createDocumentFragment();
+
+    for (let page = 1; page <= pageCount; page += 1) {
+      const pageNumber = padding ? String(page).padStart(padding, "0") : String(page);
+      const figure = document.createElement("figure");
+      figure.className = "document-viewer__page";
+      const image = document.createElement("img");
+      image.src = button.dataset.previewPath.replace("{page}", pageNumber);
+      image.alt = `${button.dataset.previewTitle}, page ${page} of ${pageCount}`;
+      image.loading = page <= 2 ? "eager" : "lazy";
+      image.draggable = false;
+      const caption = document.createElement("figcaption");
+      caption.textContent = `Page ${page} of ${pageCount}`;
+      figure.append(image, caption);
+      fragment.append(figure);
+    }
+
+    documentViewerPages.replaceChildren(fragment);
+    documentViewer.hidden = false;
+    documentViewer.setAttribute("aria-hidden", "false");
+    document.body.classList.add("viewer-open");
+    documentViewer.querySelector(".document-viewer__close").focus();
+  });
+});
+
+documentViewer?.querySelectorAll("[data-close-viewer]").forEach((control) => {
+  control.addEventListener("click", closeDocumentViewer);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeDocumentViewer();
+});
