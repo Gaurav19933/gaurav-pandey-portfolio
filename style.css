@@ -1990,3 +1990,5 @@ body.viewer-open { overflow: hidden; }
   .recognition-row dt { font-size: .75rem; }
   .recognition-row dd { font-size: .85rem; }
 }
+
+.certificate-preview-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--gray-200); }
