@@ -59,6 +59,8 @@ function applyFeaturedLinks(links) {
     setText(`featuredTitle${number}`, link.title);
     setText(`featuredDescription${number}`, link.description);
     setLink(`featuredLink${number}`, link.url, link.label || "Open featured link");
+    setLink(`featuredImageLink${number}`, link.url);
+    setLink(`featuredTitleLink${number}`, link.url);
   });
 }
 

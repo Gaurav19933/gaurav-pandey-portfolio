@@ -2011,3 +2011,26 @@ body.viewer-open { overflow: hidden; }
   .compact-skills { grid-template-columns: 1fr; }
 }
 @media (max-width: 440px) { #research .research-grid { grid-template-columns: 1fr; } }
+
+/* Article previews use the original Blogspot imagery and publication dates. */
+.profile-link-card.article-preview { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.article-preview-image { display: block; overflow: hidden; background: #e2e8f0; }
+.article-preview-image img { display: block; width: 100%; height: 210px; object-fit: cover; transition: transform .25s ease; }
+.article-preview-image:hover img { transform: scale(1.03); }
+.article-preview-copy { padding: 22px 24px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.article-preview-copy h3 a { color: var(--gray-900); text-decoration: none; }
+.article-preview-copy h3 a:hover { color: var(--blue-500); text-decoration: underline; }
+.article-preview-copy .article-preview-meta { font-size: .76rem; color: var(--gray-600); letter-spacing: .02em; }
+.article-preview-copy > .inline-link { margin-top: auto; padding-top: 4px; }
+@media (max-width: 600px) { .article-preview-image img { height: 180px; } .article-preview-copy { padding: 20px; } }
+
+/* Compact writing previews. */
+#profiles { padding-top: 40px; padding-bottom: 40px; }
+#profiles .section-header { margin-bottom: 24px; }
+#profiles .section-header h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+#profiles .article-preview-image img { height: 145px; }
+#profiles .article-preview-copy { padding: 16px 20px; gap: 8px; }
+#profiles .article-preview-copy h3 { font-size: 1rem; margin: 0; }
+#profiles .article-preview-copy p { font-size: .85rem; line-height: 1.55; }
+#profiles .article-preview-copy .article-preview-meta { font-size: .72rem; }
+#profiles .article-preview-copy .inline-link { font-size: .84rem; }
