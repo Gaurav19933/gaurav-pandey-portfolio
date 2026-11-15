@@ -1992,3 +1992,22 @@ body.viewer-open { overflow: hidden; }
 }
 
 .certificate-preview-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--gray-200); }
+
+/* Compact supporting expertise, preserving the existing research topics. */
+#research, #skills { padding-top: 36px; padding-bottom: 36px; }
+#research .section-header, #skills .section-header { margin-bottom: 22px; text-align: left; }
+#research .section-header h2, #skills .section-header h2 { font-size: clamp(1.4rem, 2.5vw, 1.9rem); margin-top: 8px; }
+#research .research-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 24px; }
+#research .research-card { padding: 14px 0; border: 0; border-radius: 0; border-top: 1px solid var(--gray-200); background: transparent; box-shadow: none; transform: none; }
+#research .research-card h3 { font-size: .96rem; margin-bottom: 5px; padding: 0; }
+#research .research-card h3::before { display: none; }
+#research .research-card p { font-size: .86rem; line-height: 1.55; }
+.compact-skills { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 30px; }
+.compact-skills > div { padding: 13px 0; border-top: 1px solid var(--gray-200); min-width: 0; }
+.compact-skills dt { font-size: .88rem; font-weight: 700; color: var(--gray-900); margin-bottom: 4px; }
+.compact-skills dd { margin: 0; font-size: .87rem; color: var(--gray-600); line-height: 1.65; }
+@media (max-width: 700px) {
+  #research .research-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 18px; }
+  .compact-skills { grid-template-columns: 1fr; }
+}
+@media (max-width: 440px) { #research .research-grid { grid-template-columns: 1fr; } }
